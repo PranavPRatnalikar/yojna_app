@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back1search"
+    tools:context=".SearchLabours">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Labours"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/background1"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="20dp"
+        android:elevation="10dp"
+        android:layout_marginHorizontal="30dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Search"
+        android:id="@+id/btnSearch"
+        android:layout_marginHorizontal="30dp"
+        android:backgroundTint="#9C4EDC"
+        android:textAllCaps="false"
+        android:textStyle="normal"
+        app:cornerRadius="8dp"/>
+
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        >-->
+
+<!--        <ListView-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:id="@+id/custom_listview"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:divider="@color/black"-->
+<!--            android:elevation="20dp"-->
+<!--            android:layout_marginHorizontal="10dp"-->
+<!--            android:dividerHeight="3dp"/>-->
+
+<!--    </RelativeLayout>-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btnSearch" />
+
+<!--    </LinearLayout>-->
+
+<!--    </ScrollView>-->
+
+
+
+
+
+</LinearLayout>

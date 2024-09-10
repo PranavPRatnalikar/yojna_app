@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">IoTTry2</string>
+    <string name="User_name">username</string>
+    <string-array name="Requirements">
+        <item>carpenter</item>
+        <item>chef</item>
+        <item>sweeper</item>
+        <item>plumber</item>
+        <item>cleaner</item>
+<!--        <item>d</item>-->
+<!--        <item>e</item>-->
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
